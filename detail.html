@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail</title>
+    <link rel="stylesheet" href="styles/detail.css">
+    <link rel="stylesheet" href="styles/common.css">
 </head>
 <body>
-    <div class="header">
+    <header>
         <a href="index.html"><img width="200px" src="/assests/images/logo.png" alt="logo"></a>
         <a href="login.html" target="_blank">login</a>
-    </div>
-    <div class="content">
+    </header>
+    <article>
         <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="">
-       <form action="">
+       <form action="payment.html">
            <label for="num">Adults:</label>
            <input type="number" name="num" id="num" min="1">
            <br>
@@ -29,7 +31,7 @@
            <label for="total">Total:</label>
            <input type="text" id="total" name="total" disabled>
            <br>
-           <a href="payment.html"><button>Book Now</button></a>
+           <input type="submit" value="Book Now">
        </form>
         <h3>Radisson Blu Hotel</h3>
         <p>RATING</p>
@@ -45,8 +47,8 @@
         <p>DESCRIPTION</p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam iste tempora exercitationem excepturi incidunt dolore placeat itaque voluptas quod. Tempora.</p>
 
-    </div>
-    <div class="footer">
+    </article>
+    <footer>
         <a href="contact.html" target="_blank">Contact Us</a>
         <br>
         <a href="https://www.facebook.com" target="_blank">
@@ -60,6 +62,6 @@
         </a>
         <br>
         &copy 2022 ROOM SEARCH PVT LTD
-    </div>
+    </footer>
 </body>
 </html>
