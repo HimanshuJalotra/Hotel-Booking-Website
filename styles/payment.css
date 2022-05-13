@@ -3,6 +3,7 @@ article img{
     width: 500px;
 }
 article {
+<<<<<<< HEAD
     margin-top: 6%;
     margin-bottom: 6%;
 
@@ -11,6 +12,10 @@ article a{
     text-decoration: none;
     color: black;
 }
+=======
+
+}
+>>>>>>> 56dfc63de260c4a8592cce80a0e0989f5feda66e
 article .content-first{
     background-color: rgb(132,136,139);
     width: 50%;
