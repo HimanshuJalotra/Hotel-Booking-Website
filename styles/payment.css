@@ -3,7 +3,13 @@ article img{
     width: 500px;
 }
 article {
+    margin-top: 6%;
+    margin-bottom: 6%;
 
+}
+article a{
+    text-decoration: none;
+    color: black;
 }
 article .content-first{
     background-color: rgb(132,136,139);

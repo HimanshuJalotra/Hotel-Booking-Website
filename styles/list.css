@@ -1,3 +1,33 @@
+article{
+    margin-bottom: 50px;
+}
+article ul{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+article ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+article ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#list-view .hotels{
+    display: flex;
+    flex-wrap: wrap;
+}
+#list-view .hotels .hotel{
+    margin-right: 60px;
+    margin-left: 80px;
+}
+#list-view .hotels .hotel a{
+    text-decoration: none;
+    color: black;
+}
 #list-view img{
     width: 250px;
     height: 200px;
@@ -7,4 +37,7 @@
     margin: 2%;
     background-color: rgb(132,136,139);
     width: 40%;
+}
+#map-view{
+    display: none;
 }

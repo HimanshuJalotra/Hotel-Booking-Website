@@ -1,14 +1,36 @@
+article{
+    height: 800px;
+}
+article .anchor{
+    text-align: center;
 
+}
+article .anchor a{
+    text-decoration: none;
+    color: black;
+    /* margin-bottom: 50px; */
+}
+article .search form input{
+    width: 400px;
+    border: 1px solid white;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 12px;
+}
 article img{
     height: 150px;
     width: 150px; 
 }
-article form{
+article .search{
     background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
-    height: 380px;
+    height: 450px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 article .cards{
     display: flex;
