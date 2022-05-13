@@ -22,7 +22,6 @@ article img{
     height: 150px;
     width: 150px; 
 }
-<<<<<<< HEAD
 article .search{
     background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
     height: 450px;
@@ -32,14 +31,6 @@ article .search{
     display: flex;
     align-items: center;
     justify-content: center;
-=======
-article form{
-    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
-    height: 380px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
->>>>>>> 56dfc63de260c4a8592cce80a0e0989f5feda66e
 }
 article .cards{
     display: flex;

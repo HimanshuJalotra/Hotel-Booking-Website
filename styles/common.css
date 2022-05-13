@@ -3,7 +3,6 @@ body {
     width: 100%;
     margin: 0;
     background-color: #e0e0e0;
-<<<<<<< HEAD
     font-family: 'Ubuntu', sans-serif;
 
 }
@@ -57,21 +56,6 @@ footer .logo{
     right: 10px;
 }
 footer img {
-=======
-}
-header{
-    background-color: rosybrown;
-}
-
-header img{
-    height: 60px;
-    width: 60px;
-}
-footer{
-    background-color: rosybrown;
-}
-footer img{
->>>>>>> 56dfc63de260c4a8592cce80a0e0989f5feda66e
     height: 20px;
     width: 22px;
 }
