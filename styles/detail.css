@@ -2,3 +2,21 @@ article img{
     height: 500px;
     width: 500px;
 }
+article .img-part{
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+article .desc-part{
+    margin-right: 4%;
+    margin-left: 4%;
+
+}
+article .desc-part .payment{
+    margin-bottom: 1%;
+}
+
+article .desc-part .description{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}

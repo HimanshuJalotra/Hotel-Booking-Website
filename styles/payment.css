@@ -2,3 +2,27 @@ article img{
     height: 500px;
     width: 500px;
 }
+article {
+
+}
+article .content-first{
+    background-color: rgb(132,136,139);
+    width: 50%;
+    height: 20%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+article .content-sec .desc{
+    margin: 2%;
+}
+article .content-sec .tariff{
+    margin: 2%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
