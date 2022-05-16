@@ -35,8 +35,12 @@ article ul li a{
 }
 #list-view .hotel{
     margin: 2%;
-    background-color: rgb(132,136,139);
+    background-color: lightgray;
     width: 40%;
+    display: flex;
+}
+#list-view .hotel .text{
+ margin-left: 3%;
 }
 #map-view{
     display: none;

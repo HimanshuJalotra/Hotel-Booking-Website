@@ -21,6 +21,7 @@ header nav{
 header .anchor{
     position: absolute;
     right:15px;
+    margin-right: 2%;
 }
 header a{
     text-decoration: none;
@@ -29,6 +30,7 @@ header a{
 header img {
     height: 60px;
     width: 60px;
+    margin-left: 1%;
 }
 
 footer {
@@ -43,7 +45,7 @@ footer {
 footer a{
     text-decoration: none;
     color: black;
-    margin-left: 10px;
+    margin-left: 2%;
 }
 footer p{
     position: absolute;
@@ -52,8 +54,10 @@ footer p{
     font-size: 10px;
 }
 footer .logo{
+    display: flex;
     position: absolute;
     right: 10px;
+    margin-right: 2%;
 }
 footer img {
     height: 20px;

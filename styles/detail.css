@@ -2,25 +2,72 @@ article{
     margin-top:6%;
     margin-bottom: 6%;
 }
+article .container{
+    display: flex;
+    /* border: 2px solid black; */
+    /* justify-content: center; */
+    align-items: center;
+    height: 450px;
+}
 article img{
-    height: 500px;
-    width: 500px;
+    height: 90%;
+    width: 60%;
 }
 article .img-part{
-    margin-top: 2%;
-    margin-left: 4%;
-    margin-right: 4%;
+    /* margin-top: 2%; */
+    margin-left: 2%;
+    /* margin-right: 4%; */
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 article .desc-part{
-    margin-right: 4%;
-    margin-left: 4%;
+    margin-right: 2%;
+    /* margin-left: 4%; */
+    border: 1px solid black;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 article .desc-part .payment{
     margin-bottom: 1%;
+    margin-left: 8%;
+    margin-top: 8%;
+    height: 100%;
+    width: 100%;
+}
+article .desc-part .payment form{
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+article .desc-part .payment form input{
+    width: 60%;
+    margin: 6%;
+}
+article .desc-part .payment form button{
+    margin: 6%;
+    margin-left: 17%;
+    width: 20%;
+    height: 8%;
 }
 
-article .desc-part .description{
+article .description{
     margin-top: 1%;
     margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+article .description h4{
+   font-family: cursive;
 }

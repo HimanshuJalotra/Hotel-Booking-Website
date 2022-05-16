@@ -1,5 +1,7 @@
 article{
     height: 800px;
+    display: flex;
+    flex-direction: column;
 }
 article .anchor{
     text-align: center;
@@ -17,6 +19,7 @@ article .search form input{
     padding: 10px;
     font-size: 16px;
     border-radius: 12px;
+    outline: none;
 }
 article img{
     height: 150px;
@@ -24,7 +27,7 @@ article img{
 }
 article .search{
     background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
-    height: 450px;
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,18 +35,49 @@ article .search{
     align-items: center;
     justify-content: center;
 }
-article .cards{
+article .cards{ 
     display: flex;
-    justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-left: 15%;
+    margin-right: 15%; */
 
 }
 article .cards .card{
+    position: relative;
   padding: 4% 4% 4% 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
 }
 
 article .cards .card img{
     border-radius: 25px;
     
+    
   }
+  article .cards .card .image{
+    box-shadow: 10px 10px 10px grey;
+    
+    
+  }
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    opacity: -1;
+    margin: auto;
+}
+.middle .text{
+    margin: auto;
+    color:  #f1f1f1;
+}
+article .cards .card:hover .middle{
+    opacity: 1;
+}
+article .cards .card:hover .image{
+    /* opacity: 0.5; */
+    filter: brightness(40%);
+}
