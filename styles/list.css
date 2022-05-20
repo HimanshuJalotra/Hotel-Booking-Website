@@ -24,6 +24,11 @@ article ul li a{
     margin-right: 60px;
     margin-left: 80px;
 }
+#list-view .hotels .hotel:hover{
+    margin-right: 60px;
+    margin-left: 80px;
+    background-color: rosybrown;
+}
 #list-view .hotels .hotel a{
     text-decoration: none;
     color: black;
@@ -43,5 +48,5 @@ article ul li a{
  margin-left: 3%;
 }
 #map-view{
-    display: none;
+    /* display: none; */
 }
