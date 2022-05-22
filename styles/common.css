@@ -11,6 +11,7 @@ header nav{
     background-color: rosybrown;
     display: flex;
     align-items: center;
+    z-index: 2;
 
 }
 header nav{
@@ -62,4 +63,28 @@ footer .logo{
 footer img {
     height: 20px;
     width: 22px;
+}
+
+@media screen and (max-device-width: 576px){
+    footer {
+        background-color: rosybrown;
+        display: flex;
+        align-items: center;
+        height: 90px;
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+    }
+
+    footer .btn{
+        width: 105px;
+        height: 35px;
+    }
+    footer p{
+        position: absolute;
+        left: 38%;
+        /* float: center; */
+        font-size: 10px;
+        top: 5px;
+    }
 }

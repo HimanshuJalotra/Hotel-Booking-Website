@@ -1,17 +1,19 @@
 article{
-    margin-top:6%;
+    margin-top:10%;
     margin-bottom: 6%;
+    height: 1000px;
 }
 article .container{
     display: flex;
     /* border: 2px solid black; */
     /* justify-content: center; */
     align-items: center;
-    height: 450px;
+    height: 480px;
 }
 article img{
-    height: 90%;
+    height: 400px;
     width: 60%;
+    z-index: -1;
 }
 article .img-part{
     /* margin-top: 2%; */
@@ -52,8 +54,8 @@ article .desc-part .payment form{
     justify-content: space-around; */
 }
 article .desc-part .payment form input{
-    width: 60%;
-    margin: 6%;
+    width: 160px;
+    margin: 15px;
 }
 article .desc-part .payment form button{
     margin: 6%;
@@ -71,3 +73,70 @@ article .description{
 article .description h4{
    font-family: cursive;
 }
+/* Rating */
+.checked {
+    color: orange;
+  }
+
+  @media screen and (min-device-width: 576px) and (max-device-width: 768px){
+    article{
+        margin-top:14%;
+        margin-bottom: 6%;
+    }
+    article .img-part{
+        /* margin-top: 2%; */
+        /* margin-left: 2%; */
+        /* margin-right: 4%; */
+        border-left: 1px solid black;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        height: 100%;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    article img{
+        height: 200px;
+        width: 30%;
+        z-index: -1;
+    }
+    article .desc-part{
+        margin-right: 2%;
+        /* margin-left: 4%; */
+        border: 1px solid black;
+        height: 100%;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+  }
+
+  @media screen and (max-device-width: 576px){
+      article{
+          height: 1250px;
+      }
+      article .img-part{
+          margin-top: 30px;
+      }
+      article img{
+        height: 200px;
+        width: 100%;
+        z-index: -1;
+    }
+      .container{
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+
+      }
+      article .desc-part{
+          margin-top: 50px;
+          width: 400px;
+      }
+      article .description{
+          margin-top: 300px;
+      }
+  }
