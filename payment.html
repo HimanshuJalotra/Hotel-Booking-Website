@@ -20,10 +20,11 @@
                 <a href="index.html"><img width="200px" src="/assests/images/logo.png" alt="logo"></a>
             </div>
             <div class="anchor">
-                <button type="button" class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#loginModal">
+                <button class="btn btn-light btn-sm" id="loginBtn" data-bs-toggle="modal" data-bs-target="#loginModal">
                     LOGIN
                 </button>
-            </div>
+                <button type="button" class="btn btn-light btn-sm" id="logoutBtn" onclick="logout(), disable()" >LOGOUT</button>
+            </div> 
           
         </nav>
     </header>
@@ -48,7 +49,7 @@
                     5 Nights</p>
                 <p><span style="font-weight: bolder;font-family: cursive;">Total Amount: </span>Rs 10000</p>
             </div>
-            <a href="#" class="btn btn-success disabled">Pay Now</a>
+            <a href="#" class="btn btn-success" onclick="paid()" id="payNow">Pay Now</a>
         </div>
     </article>
     <footer>
@@ -90,6 +91,41 @@
       </div>
     </div>
   </div>
+
+     <!-- Login Modal -->
+     <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Please Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- <form action="">
+                        <label for="uname">Username:  </label>
+                        <input type="text" name="uname" id="uname">
+                        <br>
+                        <label for="pass">Password:</label>
+                        <input type="password" name="pass" id="pass">
+                    </form> -->
+                    <form>
+                        <div class="mb-3">
+                          <label for="uname" class="form-label">Username</label>
+                          <input type="text" class="form-control" id="uname" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="pass" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="pass">
+                        </div>
+                        <a type="submit" href="#" class="btn btn-primary" onclick="login()">Submit</a>
+                      </form>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <script src="scripts/common.js"></script>
+    <script src="scripts/payment.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
