@@ -12,3 +12,8 @@ function viewLess(){
     moreBtn.style.display ="inline";
     lessBtn.style.display = "none";
 }
+
+function validator(){
+    console.log("validator called");
+
+}

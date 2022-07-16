@@ -12,18 +12,19 @@ function login(){
 
     if(uname==username && password==pass){
         alert("successfully loggedin");
-       
+  
         loggedin= true;
+        location.replace("index.html")
     }
     else{
         alert("invalid credentials");
     }
 
     
-if(loggedin==true){
-    logoutBtn.style.display = "inline";
-    loginBtn.style.display = "none";
-}
+// if(loggedin==true){
+//     logoutBtn.style.display = "inline";
+//     loginBtn.style.display = "none";
+// }
 
 }
 

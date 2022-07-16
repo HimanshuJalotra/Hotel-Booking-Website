@@ -34,7 +34,7 @@ header img {
     margin-left: 1%;
 }
 header #logoutBtn{
-    display: none;
+    /* display: none; */
 }
 footer {
     background-color: rosybrown;

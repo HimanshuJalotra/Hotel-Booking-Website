@@ -13,11 +13,11 @@
  
 </head>
 
-<body> 
+<body onload="validator()"> 
     <header>
         <nav>
             <div class="img">
-                <a href="index.html"><img width="200px" src="/assests/images/logo.png" alt="logo"></a>
+                <a href="index.html"><img width="200px" src="assests/images/logo.png" alt="logo"></a>
             </div>
             <div class="anchor">
                 <button class="btn btn-light btn-sm" id="loginBtn" data-bs-toggle="modal" data-bs-target="#loginModal">
@@ -29,15 +29,15 @@
         </nav>
     </header>
     <article>
-        <div class="content-first">
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="">
-            <div class="img-desc">
+        <div class="content-first" id="img-details">
+            <!-- <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="">
+            <div class="img-desc" >
                 <h3>Radisson Blu Hotel</h3>
                 <p>#38 of 1,289 hotels in New Delhi</p>
                 <p>National Highway 8, New Delhi 110017 India</p>
-            </div>
+            </div> -->
         </div>
-        <div class="content-sec">
+        <div class="content-sec" id="content-details">
             <div class="desc">
                 <p><span style="font-weight: bolder;font-family: cursive;">Name: </span>John Doe</p>
                 <p><span style="font-weight: bolder;font-family: cursive;">Number of Adults: </span>2</p>
@@ -57,13 +57,13 @@
         <p>&copy 2022 ROOM SEARCH PVT LTD</p>
         <div class="logo">
             <a href="https://www.facebook.com" target="_blank">
-                <img src="/assests/images/facebook.png" alt="">
+                <img src="assests/images/facebook.png" alt="">
             </a>
             <a href="https://www.instagram.com" target="_blank">
-                <img src="/assests/images/instagram.png" alt="">
+                <img src="assests/images/instagram.png" alt="">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="/assests/images/twitter.png" alt="">
+                <img src="assests/images/twitter.png" alt="">
             </a>
         </div>
     </footer>

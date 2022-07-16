@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head> 
 
-<body>
+<body onload="validator()">
     <header>
         <nav>
             <div class="img">
-                <a href="index.html"><img width="200px" src="/assests/images/logo.png" alt="logo"></a>
+                <a href="index.html"><img width="200px" src="assests/images/logo.png" alt="logo"></a>
             </div>
             <div class="anchor">
                 <button class="btn btn-light btn-sm" id="loginBtn" data-bs-toggle="modal" data-bs-target="#loginModal">
@@ -35,9 +35,9 @@
                  
                 <!-- slider -->
 
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
+                <div id="carouselExampleControls " class="carousel slide" data-bs-ride="carousel" >
+                    <div class="carousel-inner" id="slider-div" >
+                      <!-- <div class="carousel-item active">
                         <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
@@ -45,7 +45,7 @@
                       </div>
                       <div class="carousel-item">
                         <img src="https://media-cdn.tripadvisor.com/media/photo-w/0e/b2/64/3f/radisson-blu-plaza-delhi.jpg" class="d-block w-100" alt="...">
-                      </div>
+                      </div> -->
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -55,7 +55,7 @@
                       <span class="carousel-control-next-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Next</span>
                     </button>
-                  </div>
+                </div>
             </div>
             <div class="desc-part">
                 <div class="payment">
@@ -75,31 +75,15 @@
                         <label for="total">Total:</label>
                         <input type="text" id="total" name="total" readonly>
                         <br>
-                        <a href="payment.html" class="btn btn-success" style="width: 100px;">Book Now</a>
+                        <div id="anchor">
+                            <!-- <a onclick="onClickHandler()" class="btn btn-success" style="width: 100px;">Book Now</a> -->
+                        </div>
                     </form>
                 </div>
             </div>
         </div> 
-        <div class="description">
-            <h2>Radisson Blu Hotel</h2>
-            <h4>RATING</h4>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <h4>AMENITIES</h4>
-            <ul>
-                <li>Room service</li>
-                <li>Restaurant</li>
-                <li>Business center</li>
-                <li>Fitness center</li>
-                <li>Pool</li>
-            </ul>
-            <h4>DESCRIPTION</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam iste tempora exercitationem
-                excepturi
-                incidunt dolore placeat itaque voluptas quod. Tempora.</p>
+        <div class="description" id="desc-div">
+         
         </div>
 
     </article>
@@ -108,13 +92,13 @@
         <p>&copy 2022 ROOM SEARCH PVT LTD</p>
         <div class="logo">
             <a href="https://www.facebook.com" target="_blank">
-                <img src="/assests/images/facebook.png" alt="">
+                <img src="assests/images/facebook.png" alt="">
             </a>
             <a href="https://www.instagram.com" target="_blank">
-                <img src="/assests/images/instagram.png" alt="">
+                <img src="assests/images/instagram.png" alt="">
             </a>
             <a href="https://twitter.com" target="_blank">
-                <img src="/assests/images/twitter.png" alt="">
+                <img src="assests/images/twitter.png" alt="">
             </a>
         </div>
     </footer>
@@ -183,3 +167,4 @@
 </body>
 
 </html>
+
